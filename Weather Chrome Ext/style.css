@@ -1,0 +1,57 @@
+body {
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: bg-change 5s ease-in-out;
+    animation-fill-mode: forwards;
+
+    border-radius: 10px;
+    color: orange;
+}
+
+@keyframes bg-change {
+    0% {
+        background: #292a35;
+    }
+
+    100% {
+        background: #2e2f3b;
+    }
+}
+
+.city {
+    font-size: 2rem;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+    padding: 0.5rem;
+}
+
+.temp {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.feels {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.weather {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
